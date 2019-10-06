@@ -1,0 +1,13 @@
+<?php
+    $mobileNo = $block->getMobileNo();
+?>
+<div class="field required">
+    <label for="mobile_no" class="label"><span><?php /* @escapeNotVerified */ echo __('Mobile Number') ?></span></label>
+    <div class="control">
+        <input type="text" name="mobile_no" id="mobile_no" value="<?php echo $mobileNo; ?>" title="<?php /* @escapeNotVerified */ echo __('Mobile Number') ?>" class="input-text" value=" ?>" data-validate="{required:true}">
+    </div>
+</div>
+
+
+
+
